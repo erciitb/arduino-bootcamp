@@ -1,0 +1,28 @@
+int led_pin = /*  Your code here  */;   // Choose a ~ pin!!
+
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(led_pin, OUTPUT);
+}
+
+void loop()
+{
+  if ( Serial.available() > 0){
+   
+    // Input from 0 to 9
+    char data = /*  Your code here  */; 
+
+    // Intensity = [0, 225]
+    int intensity = (data - '0')*25;
+    
+    /*
+      === Your code here ===
+
+      How to use "~" pins? (PWM)
+
+    */
+
+    Serial.println(intensity);
+  }
+}

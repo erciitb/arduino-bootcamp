@@ -1,0 +1,18 @@
+const int ledPin = 13;
+const int interruptPin = 2;
+volatile int state = LOW;
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  pinMode(interruptPin, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(interruptPin), blink, CHANGE);
+}
+
+void loop() {
+  digitalWrite(ledPin, state);
+  delay(200);
+}
+
+void blink() {
+  state = !state;
+}

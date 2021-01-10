@@ -1,0 +1,27 @@
+// Assign the pins
+const int ledPin = 		;
+const int interruptPin = 	;
+
+volatile int state = LOW;
+
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  pinMode(interruptPin, INPUT_PULLUP);      // Input pull-up, what's this now??
+
+  // attach interrupt
+  /*
+  	Your code here
+  */
+}
+
+void loop() {
+  digitalWrite(ledPin, state);
+  delay(200);
+}
+
+void blink() {
+  /*
+  	When to blink ??
+  */
+}

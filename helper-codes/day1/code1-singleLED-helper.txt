@@ -1,0 +1,28 @@
+int ledpin = 		// Which pin do you want to use??
+
+void setup()
+{
+  pinMode(ledpin, OUTPUT);
+}
+
+void loop()
+{
+  
+
+  // turn the LED on (HIGH is the voltage level)
+  /*
+  	Your code
+  */
+
+  
+  delay(1000); // Wait for 1000 millisecond(s)
+  
+
+
+  // turn the LED off by making the voltage LOW
+  /*
+  	Your code
+  */
+  
+  delay(1000); // Wait for 1000 millisecond(s)
+}

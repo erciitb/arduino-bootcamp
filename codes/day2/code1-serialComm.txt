@@ -1,0 +1,21 @@
+int led_pin = 9;
+
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(led_pin, OUTPUT);
+}
+
+void loop()
+{
+  if ( Serial.available() > 0){
+   
+    char data = Serial.read();
+    // Input from 0 to 9
+    int intensity = (data - '0')*25;
+    
+  analogWrite(led_pin, intensity);
+
+    Serial.println(intensity);
+  }
+}

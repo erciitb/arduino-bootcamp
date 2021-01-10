@@ -1,0 +1,60 @@
+#include <LiquidCrystal.h>
+
+// initialize the library with the numbers of the interface pins
+
+// LiquidCrystal lcd(RS, E, DB4, DB5, DB6, DB7)
+/*
+  Your code here (Initialize lcd)
+*/
+
+const int trigPin = 8;
+const int echoPin = 9;
+
+// Why float?
+float distance, duration;
+
+
+void setup() {
+  // Set up the echo and trig pin of UV sensor
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  
+  // set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+
+  // Print a message to the LCD.
+  lcd.print("Distance:");
+}
+
+void loop() {
+  /*
+    First set the trigPin low for 2 microseconds just to make 
+    sure that the pin in low first. Then, we set it high for 
+    10 microseconds, which sends out a sonic burst from the 
+    transmitter, which then bounces of an object and hits the 
+    receiver(Which is connected to the Echo Pin).
+  */
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  // Calculate distance
+  duration = pulseIn(echoPin, HIGH);
+
+  // Speed of sound in centimeters per microsecond: 0.0343 cm/μS
+  // S = v * t / 2        (why /2 ??)
+  distance = (duration*.0343)/2;
+  
+  // Set the cursor to next line ("\n" :P)
+  /*
+    lcd.setCursor(x,y);
+
+    use this to set your cursor to next line (i.e. x=0, y=1)
+  */
+  lcd.print(distance);
+  
+  delay(200);
+}
+ 
