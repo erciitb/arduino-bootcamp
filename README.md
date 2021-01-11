@@ -15,9 +15,9 @@ Check out some **amazing** projects here and try them on your own: [project idea
 - [Multiple LEDs on Breadboard](codes/day1/code3-multipleLEDonBreadboard.txt)
 
 #### Day 2
-- [Serial Communication](codes/day1/code1-serialComm.txt)
-- [Interrupt](codes/day1/code2-interrupt.txt)
-- [LCD with Ultrasonic sensor](codes/day1/code3-lcd-ultrasonic.txt)
+- [Serial Communication](codes/day2/code1-serialComm.txt)
+- [Interrupt](codes/day2/code2-interrupt.txt)
+- [LCD with Ultrasonic sensor](codes/day2/code3-lcd-ultrasonic.txt)
 
 
 
@@ -28,9 +28,9 @@ Check out some **amazing** projects here and try them on your own: [project idea
 
 ### Helper Codes
 #### Day 1
-- [Single LED Blink](helper-codes/day1/code1-singleLED.txt)
-- [Single LED on Breadboard](helper-codes/day1/code2-LEDonBreadboard.txt)
-- [Multiple LEDs on Breadboard](helper-codes/day1/code3-multipleLEDonBreadboard.txt)
+- [Single LED Blink](helper-codes/day1/code1-singleLED-helper.txt)
+- [Single LED on Breadboard](helper-codes/day1/code2-LEDonBreadboard-helper.txt)
+- [Multiple LEDs on Breadboard](helper-codes/day1/code3-multipleLEDonBreadboard-helper.txt)
 
 #### Day 2
 - [Serial Communication](helper-codes/day2/code1-serialComm.txt)
