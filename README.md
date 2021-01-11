@@ -11,26 +11,31 @@ Check out some **amazing** projects here and try them on your own: [project idea
 ## Final Codes
 #### Day 1
 - [Single LED Blink](codes/day1/code1-singleLED.txt)
-- [Single LED on Breadboard](codes/day1/code2-LEDonBreadboard.txt)
-- [Multiple LEDs on Breadboard](codes/day1/code3-multipleLEDonBreadboard.txt)
+- [Single LED with Breadboard](codes/day1/code2-LEDonBreadboard.txt)
+- [Multiple LEDs with Breadboard](codes/day1/code3-multipleLEDonBreadboard.txt)
 
 #### Day 2
 - [Serial Communication](codes/day2/code1-serialComm.txt)
 - [Interrupt](codes/day2/code2-interrupt.txt)
 - [LCD with Ultrasonic sensor](codes/day2/code3-lcd-ultrasonic.txt)
 
-
-
 ## Recordings
 - [Day 1](https://drive.google.com/file/d/1XonZbVNbN_ybmcEeC9GMVkCzvp1xZlDZ/view?usp=sharing)
 - [Day 2](https://drive.google.com/file/d/1XonZbVNbN_ybmcEeC9GMVkCzvp1xZlDZ/view?usp=sharing)
+
+## Tinkercad Simulations:
+- [Single LED](https://www.tinkercad.com/things/holN4keb8OA)
+- [Single LED with Breadboard](https://www.tinkercad.com/things/0pf7l443iwl)
+- [Multiple LED with Breadboard](https://www.tinkercad.com/things/htREcvVtjeV)
+- [Serial Communication](https://www.tinkercad.com/things/6sBOTf378kf)
+- [LCD with Ultrasonic sensor](https://www.tinkercad.com/things/c1rE5WYNMTD)
 
 
 ### Helper Codes
 #### Day 1
 - [Single LED Blink](helper-codes/day1/code1-singleLED-helper.txt)
-- [Single LED on Breadboard](helper-codes/day1/code2-LEDonBreadboard-helper.txt)
-- [Multiple LEDs on Breadboard](helper-codes/day1/code3-multipleLEDonBreadboard-helper.txt)
+- [Single LED with Breadboard](helper-codes/day1/code2-LEDonBreadboard-helper.txt)
+- [Multiple LEDs with Breadboard](helper-codes/day1/code3-multipleLEDonBreadboard-helper.txt)
 
 #### Day 2
 - [Serial Communication](helper-codes/day2/code1-serialComm.txt)
