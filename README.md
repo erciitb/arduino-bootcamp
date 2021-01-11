@@ -44,13 +44,17 @@ Do fill out the **feedback** [form](https://forms.gle/NyXCwnARfTUmurn17)!
 
 In case of any doubts and suggestions regarding Arduino Bootcamp, do reach out to any of the conveners of the club (WhatsApp group admins)
 
+
 ERC homepage : https://erc.tech-iitb.org
+
 ERC wiki : https://www.tech-iitb.org/erc-wiki/index.php/Main_Page
 
 
 
 Stay tuned for ERC’s upcoming events!
+
 Till then, 
+
 Think, Tinker, Transform!
 
 
